@@ -130,7 +130,7 @@ pointLightBottomRight.position.set(11.5, -6, -2);
 scene.add(pointLightBottomRight);
 
 //Add RectAreaLight
-const purpleRectLight = new THREE.RectAreaLight(0x800080, 50, 5, 5);
+const purpleRectLight = new THREE.RectAreaLight(0x800080, 5, 5, 5);
 purpleRectLight.position.set(0, 0, -2); // Position it behind the dice
 purpleRectLight.lookAt(0, 0, 0); // Point it toward the center where the dice is
 scene.add(purpleRectLight);
